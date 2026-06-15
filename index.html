@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tapas Ranjan Rath - Cognitive Science Researcher</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <header>
         <div class="hero">
@@ -13,32 +15,75 @@
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <!-- <li><a href="#about">About Me</a></li> -->
-                    
+
                     <li><a href="#research">Research</a></li>
                     <li><a href="#resume">Resume</a></li>
                     <li><a href="#links">Reads</a></li>
                     <li><a href="#personal">Personal</a></li>
-                    
+
                 </ul>
             </nav>
             <div class="hero-text">
                 <h1>Tapas Ranjan Rath</h1>
                 <p>Decision-Making & Human-AI Interaction | Ph.D. Candidate, IIT Kanpur</p>
-                
+
             </div>
-        </div> 
+        </div>
     </header>
 
     <section id="home">
         <div class="container">
             <h2>About Me</h2>
-            <p>I am a Ph.D. candidate at the Indian Institute of Technology (IIT) Kanpur, India, specializing in cognitive science and decision-making research. My current work explores the influence of context effects on decision-making and the role of cognitive biases in shaping human judgment.</p>
-            <p>With a background in Electronics and Instrumentation Engineering, I bring an interdisciplinary perspective to cognitive science, combining experimental design, statistical analysis, and computational modeling.</p>
+            <p>
+                I am a Ph.D. candidate in Cognitive Science at the Indian Institute of Technology (IIT) Kanpur,
+                researching the computational mechanisms of context effects in human decision-making.
+                My work investigates how environmental structures—such as irrelevant options or decoys—bias human
+                choice,
+                and how we can robustly model these deviations from rationality.
+            </p>
+            <p>
+                My approach is informed by my background in Electronics & Instrumentation Engineering and prior
+                experience
+                as a Senior Software Engineer at Accenture, where I worked on large-scale QA and software testing for
+                British
+                Telecom.
+                I bridge these disciplines by combining behavioral experimentation with rigorous computational modeling.
+            </p>
+            <p>
+                Currently, I am extending my research into <strong>Human-AI Interaction</strong>. I am specifically
+                interested in how human "sense of agency" changes when using AI tools, and how we can design AI
+                assistants
+                that support—rather than undermine—human perceived control. I aim to apply my experience in measuring
+                behavioral biases to the evaluation of human-AI partnerships.
+            </p>
+            <!-- NEW: Profiles / Links Section -->
+            <div style="margin-top: 15px; font-size: 1.1em;">
+                <strong>Find me on:</strong> &nbsp;
+
+                <!-- GitHub Link -->
+                <a href="https://github.com/tapasiitk" target="_blank"
+                    style="text-decoration: none; margin-right: 15px;">
+                    <svg height="20" width="20" viewBox="0 0 16 16" fill="currentColor"
+                        style="vertical-align: text-bottom; margin-right: 4px;">
+                        <path
+                            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
+                        </path>
+                    </svg>
+                    <strong>GitHub</strong>
+                </a>
+
+                <!-- Optional: Add LinkedIn or Scholar here if you want -->
+                <!-- 
+    <a href="LINKEDIN_URL" target="_blank" style="text-decoration: none;">
+        <strong>LinkedIn</strong>
+    </a> 
+    -->
+            </div>
             <div class="skills">
                 <h3>Skills</h3>
                 <ul>
                     <li>R (lme4, brms)</li>
-                    <li>Python (Pandas, SciPy)</li>
+                    <li>Python (Pandas, SciPy, PyTorch)</li>
                     <li>Experimental Design (PsychoPy, JavaScript)</li>
                     <li>Eye Tracking (Eyelink 1000 Plus)</li>
                 </ul>
@@ -49,47 +94,367 @@
     <section id="research">
         <h2>Research</h2>
 
-        <h3>PhD Research</h3>
-        <p>I work on <strong>context effects in decision-making</strong>, exploring how different options influence choices. I primarily use <strong>vanilla JavaScript</strong> for both offline and online experiments and rely on <strong>Python and R</strong> for statistics, data analysis, and visualization.</p>
-    
-        <h3>Current Projects</h3>
+        <h3>
+            <a href="#journals-and-conferences">PhD Research</a>
+        </h3>
+        <!-- <h3><a href=" https://www.cgs.iitk.ac.in/user/tapasr/docs/Statement_of_Research.pdf"
+                target="_blank">Future
+                Directions</a>
+        </h3> -->
+        <!-- <p>I work on <strong>context effects in decision-making</strong>, exploring how different attribute structures
+            influence choices. I primarily use <strong>vanilla JavaScript</strong> for both offline and online
+            experiments and rely on <strong>Python and R</strong> for statistics, data analysis, and visualization.</p> -->
+        <p>
+            My doctoral work investigates <strong>context effects in decision-making</strong>, exploring how attribute
+            structures (like decoys) influence human choice.
+            To ensure precise control over stimulus timing and interaction, I primarily use <strong>vanilla
+                JavaScript</strong> to build granular online and offline experiments.
+        </p>
+        <!-- <p>
+            A key focus is statistical robustness: I develop simulation frameworks to test if standard decision metrics
+            (like RST/AST) hold up under heterogeneous preferences.
+            <br>
+            <em>Related Code:</em> <a href="https://github.com/tapasiitk/robust-context-metrics"
+                target="_blank">robust-context-metrics</a>
+        </p> -->
+        <p>
+            A key focus is statistical robustness: I develop simulation frameworks to test if standard decision metrics
+            (like RST/AST) hold up under heterogeneous preferences.
+            <a href="https://github.com/tapasiitk/robust-context-metrics" target="_blank" title="View Code on GitHub"
+                style="text-decoration:none; margin-left: 5px;">
+                <svg height="16" width="16" viewBox="0 0 16 16" fill="currentColor" style="vertical-align: middle;">
+                    <path
+                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
+                    </path>
+                </svg>
+            </a>
+        </p>
+        <p>
+            Modeling Bounded Rationality:
+            Computational modeling of how humans select adaptive strategies under resource constraints.
+            <a href="https://github.com/tapasiitk/bounded-rationality-strategy-selection" target="_blank"
+                title="View Code on GitHub" style="text-decoration:none; margin-left: 5px;">
+                <svg height="16" width="16" viewBox="0 0 16 16" fill="currentColor" style="vertical-align: middle;">
+                    <path
+                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
+                    </path>
+                </svg>
+            </a>
+        </p>
+        <!-- <h3>Current Projects</h3>
         <ul>
-            <li><strong>Investigating the Intention-Action Selection Link in the Sense of Agency within Recommender Systems.</strong><br>
-            Studying how recommendations influence users' perceived control and decision-making.</li>
+            <li><strong>Investigating the Intention-Action Selection Link in the Sense of Agency within Recommender
+                    Systems.</strong><br>
+                Studying how recommendations influence users' perceived control and decision-making.</li>
         </ul>
-    
-        <h3>Future Directions</h3>
+
+        <h3>
+            <a href="docs/Statement_of_Research.pdf" target="_blank">Future Directions</a>
+        </h3>
         <ul>
             <li><strong>Sense of Agency in Agentic AI</strong><br>
-            Exploring how people perceive their control when working with autonomous AI systems.</li>
+                Exploring how people perceive their control when working with autonomous AI systems.</li>
             <li><strong>Player Sense of Agency in Multiplayer Online Games</strong><br>
-            Understanding decision-making and agency in interactive digital environments.</li>
-        
-        
-        </ul>
-            <br><br>
-        <h2>Journals and Conferences</h2>
+                Understanding decision-making and agency in interactive digital environments.</li>
 
+
+        </ul>
+        <br><br> -->
+        <!-- Subsection 2: Current Projects (AI Flavored) -->
+
+        <h3><a href=" https://github.com/tapasiitk/" target="_blank"></a></a>Current Projects: AI & Computational
+            Modeling</h3>
+
+        <p>
+            My current work bridges cognitive science and AI by using reinforcement learning agents as computational
+            benchmarks for human behavior.
+            I use <strong>Python and PyTorch</strong> to simulate decision agents (e.g., DRQN, POMDPs), comparing their
+            adaptive strategies against human data.
+        </p>
+        <ul>
+            <li>
+                <strong>Benchmarking RL vs. Human flexibility:</strong>
+                Implemented a Deep Recurrent Q-Network (DRQN) to model Probabilistic Reversal Learning as a POMDP.
+                <a href="https://github.com/tapasiitk/drqn-prl-pomdp" target="_blank" title="View Code on GitHub"
+                    style="text-decoration:none; margin-left: 5px;">
+                    <svg height="16" width="16" viewBox="0 0 16 16" fill="currentColor" style="vertical-align: middle;">
+                        <path
+                            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
+                        </path>
+                    </svg>
+                </a>
+            </li>
+            <!-- <li>
+                <strong>Multi-Agent Alignment (KARMA):</strong>
+                Developing a multi-agent RL architecture that uses contrastive learning to shift equilibria from
+                conflict to cooperation without explicit reward shaping.
+                <a href="https://github.com/tapasiitk/situated-agency-alignment" target="_blank"
+                    title="View Code on GitHub" style="text-decoration:none; margin-left: 5px;">
+                    <svg height="16" width="16" viewBox="0 0 16 16" fill="currentColor" style="vertical-align: middle;">
+                        <path
+                            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
+                        </path>
+                    </svg>
+                </a>
+            </li> -->
+            <!-- Subsection 3: Future Directions -->
+            <h3><a href="https://www.cgs.iitk.ac.in/user/tapasr/docs/Statement_of_Research.pdf" target="_blank">Future
+                    Directions</a></h3>
+            <ul>
+                <li>
+                    <strong>Sense of Agency in Recommender Systems:</strong>
+                    Investigating the "Intention-Action Selection Link"—studying how algorithmic recommendations
+                    influence users' perceived control and decision-making ownership.
+                </li>
+                <li>
+                    <strong>Sense of Agency in Agentic AI:</strong>
+                    Exploring how human perception of control shifts when working with autonomous, "agentic" AI systems
+                    that act on their behalf.
+                </li>
+                <li>
+                    <strong>Player Agency in Multiplayer Games:</strong>
+                    Understanding decision-making dynamics and the sense of agency in complex, interactive digital
+                    environments.
+                </li>
+            </ul>
+            <h2 id="journals-and-conferences">Publications</h2>
+
+            <!-- ===================== -->
+            <!--       JOURNAL ARTICLES -->
+            <!-- ===================== -->
+            <h3>Journal Articles</h3>
+            <ul class="publication-list">
+
+                <!-- <li>
+            <strong>Rath, T.</strong>, Srinivasan, N., & Srivastava, N..
+            <em>The attraction effect in perceptual decision-making: A case of dominance asymmetry.</em>
+            Frontiers in Psychology: Cognitive Science.
+            <a href="docs/Frontiers_Accepted.pdf" target="_blank">[PDF]</a>
+        </li> -->
+                <li>
+                    <strong>Rath, T.</strong>, Srinivasan, N., & Srivastava, N..
+                    The attraction effect in perceptual decision-making: A case of dominance asymmetry.
+                    <em>Frontiers in Psychology</em>.
+                    <a href="https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1661748"
+                        target="_blank">[Link]</a>
+                    <!-- <a href="docs/Frontiers_Accepted.pdf" target="_blank">[PDF]</a> -->
+                </li>
+
+            </ul>
+            <!-- 3. PREPRINTS (Your Strongest "New" Asset) -->
+            <h3>Preprints</h3>
+            <ul class="publication-list">
+                <li>
+                    <strong>Rath, T.</strong>, Srivastava, N., & Srinivasan, N. (2025).
+                    Unmasking the flaws of triplet–triplet attraction effect measures: Via mathematical analysis and
+                    agent-based simulations.
+                    <em>PsyArXiv</em>.
+                    <a href="https://doi.org/10.31234/osf.io/cj6hu_v1" target="_blank">[DOI]</a>
+                    <!-- <a href="https://osf.io/cj6hu/" target="_blank">[Code & Data]</a> -->
+                </li>
+            </ul>
+
+            <!-- ============================== -->
+            <!--   CONFERENCE PAPERS & PROCEEDINGS -->
+            <!-- ============================== -->
+            <h3>Conference Papers & Proceedings</h3>
+            <ul class="publication-list">
+
+                <li>
+                    <strong>Rath, T.</strong>, & Marupudi, V. (2025).
+                    <em>Re-evaluating the numerical–perceptual distinction in the attraction effect.</em>
+                    In <em>Proceedings of the 2025 Annual Meeting of the Cognitive Science Society (CogSci 2025)</em>.
+                    <a href="https://escholarship.org/content/qt0t1772s5/qt0t1772s5.pdf" target="_blank">[Link]</a>
+                </li>
+                <!-- <h3>Submitted Manuscripts</h3> -->
+                <!-- <ul class="publication-list"> -->
+
+                <li>
+                    <strong>Rath, T.</strong>, Srivastava, N., & Srinivasan, N.(2026).
+                    <em>A self-directed expanded judgment paradigm: Isolating the pairwise mechanism of the
+                        attraction
+                        effect.</em>
+                    <strong>Accepted</strong> for the Proceedings of the 2026 Annual Meeting of the Cognitive
+                    Science Society (CogSci
+                    2026).
+                    <!-- Optional: -->
+                    <a href="docs/CogSci_26_Tapas.pdf" target="_blank">[Draft]</a>
+                </li>
+
+                <!-- </ul> -->
+
+                <!-- <li>
+                    <strong>Rath, T.</strong>. (in press).
+                    <em>Effort-based strategy selection in multi-attribute decision making: When bounded rationality
+                        predicts optimal behavior.</em>
+                    In <em>Proceedings of the Applied Behavioral Science and Decision Making Conference (ABSDM
+                        2025)</em>,
+                    Indian Institute of Technology Mandi.
+                    <a href="docs/absdm2025_paper.pdf" target="_blank">[PDF]</a>
+                </li> -->
+
+
+            </ul>
+
+
+            <!-- ===================== -->
+            <!--       TALKS -->
+            <!-- ===================== -->
+            <h3>Talks & Presentations</h3>
+            <ul class="publication-list">
+
+                <li>
+                    <strong>Rath, T.</strong>, Srivastava, N., & Srinivasan, N. (2024, June).
+                    <em>De-obfuscating context effects in decision-making: A simulation study.</em>
+                    Paper presented at Virtual MathPsych/ICCM 2024.
+                    <a href="https://mathpsych.org/presentation/1357" target="_blank">[Link]</a>
+                </li>
+
+                <li>
+                    <strong>Rath, T.</strong>, Srivastava, N., & Srinivasan, N. (2024, December).
+                    <em>Attribute trade-off difficulty modulates the asymmetric-dominance of the decoy.</em>
+                    Presented at the Annual Conference of Cognitive Science, IIT Bombay.
+                </li>
+
+                <li>
+                    <strong>Rath, T.</strong>, Srivastava, N., & Srinivasan, N. (2024, November 22–25).
+                    <em>Perceptual stimuli with difficult-to-trade-off attribute values show a positive attraction
+                        effect.</em>
+                    Poster presented at the Annual Meeting of the Society for Judgment and Decision Making, New York
+                    City,
+                    USA.
+                </li>
+
+                <li>
+                    <strong>Rath, T.</strong>. (in press).
+                    <em>Effort-based strategy selection in multi-attribute decision making: When bounded rationality
+                        predicts optimal behavior.</em>
+                    In <em>Proceedings of the Applied Behavioral Science and Decision Making Conference (ABSDM
+                        2025)</em>,
+                    Indian Institute of Technology Mandi.
+                    <a href="docs/absdm2025_paper.pdf" target="_blank">[PDF]</a>
+                </li>
+
+            </ul>
+            <!-- <h3>Submitted Manuscripts</h3>
+            <!-- <ul class="publication-list"> -->
+
+            <!-- <li> -->
+            <!-- <strong>Rath, T.</strong>, Srivastava, N., & Srinivasan, N.(2026). -->
+            <!-- <em>A self-directed expanded judgment paradigm: Isolating the pairwise mechanism of the attraction -->
+            <!-- effect.</em> -->
+            <!-- Submitted to the Proceedings of the 2026 Annual Meeting of the Cognitive Science Society (CogSci -->
+            <!-- 2026). -->
+            <!-- Optional: -->
+            <!-- <a href="docs/CogSci_26_Tapas.pdf" target="_blank">[Draft]</a> -->
+            <!-- </li> -->
+
+            <!-- </ul> -->
+
+            <!-- ===================== -->
+            <!--     MANUSCRIPTS -->
+            <!-- ===================== -->
+            <h3>Manuscripts in Preparation</h3>
+            <ul class="publication-list">
+
+                <!-- <li>
+                <strong>Rath, T.</strong>, Srivastava, N., & Srinivasan, N. (in preparation).
+                <em>Unmasking the flaws of triplet–triplet attraction effect measures: Via mathematical analysis and
+                    agent-based simulations.</em>
+                Manuscript in preparation for submission to <em>Journal of Mathematical Psychology</em>.
+                <a href="docs/jmp.pdf" target="_blank">[PDF – Working Draft]</a>
+            </li> -->
+                <li>
+                    <strong>Rath, T.</strong>, & Marupudi, V. (in preparation).
+                    <em>The source of asymmetry in the asymmetric dominance effect.</em>
+                    Manuscript in preparation for submission to <em>Open Mind</em>.
+                    <a href="docs/openmind_draft_numerical.pdf" target="_blank">[PDF – Working Draft]</a>
+                </li>
+
+                <li>
+                    <strong>Rath, T.</strong> (in preparation).
+                    <em>The Proxy Agency Moral Shield: Extended Self, Semantic Fluency, and the Ethics of Agentic
+                        AI.</em>
+                    Manuscript in preparation for submission to <em>Minds and Machines</em>.
+                    <a href="docs/proxy_agency_draft.pdf" target="_blank">[PDF – Working Draft]</a>
+                </li>
+            </ul>
+
+            <!-- 
 
         <ul class="publication-list">
-            <li>
-                <strong>Pair-wise Comparison Difficulty Mediates the Attraction Effect</strong>, 
+            <ul class="publication-list">
+
+    <li>
+        <strong>Rath, T.</strong>, Srivastava, N., & Srinivasan, N. (in press).
+        <em>The attraction effect in perceptual decision-making: A case of dominance asymmetry.</em>
+        Frontiers in Psychology: Cognitive Science.
+        <a href="docs/Frontiers_Accepted.pdf" target="_blank">[PDF – Accepted Manuscript]</a>
+    </li>
+    <li>
+        <strong>Rath, T.</strong>, Srivastava, N., & Srinivasan, N. (in preparation).
+        <em>Unmasking the flaws of triplet–triplet attraction effect measures: Via mathematical analysis and agent-based simulations.</em>
+        Manuscript in preparation for submission to <em>Journal of Mathematical Psychology</em>.
+        <a href="docs/jmp.pdf" target="_blank">[PDF – Working Paper]</a>
+    </li>
+    <li>
+        <strong>Rath, T.</strong>, & Marupudi, V. (2025).
+        <em>Re-evaluating the numerical–perceptual distinction in the attraction effect.</em>
+        In <em>Proceedings of the 47th Annual Meeting of the Cognitive Science Society</em>.
+        <a href="https://escholarship.org/content/qt0t1772s5/qt0t1772s5.pdf" target="_blank">[Publisher PDF]</a>
+    </li>
+     
+
+    <li>
+        <strong>Rath, T.</strong>, Srivastava, N., & Srinivasan, N. (n.d.).
+        <em>Unmasking the flaws of triplet–triplet attraction effect measures: Via mathematical analysis and agent-based simulations.</em>
+        Manuscript in preparation for <em>Journal of Mathematical Psychology</em>.
+        <a href="docs/jmp.pdf" target="_blank">PDF</a>
+    </li>
+
+    <li>
+        <strong>Rath, T.</strong>, Srivastava, N., & Srinivasan, N. (2024, December).
+        <em>Attribute trade-off difficulty modulates the asymmetric dominance of the decoy.</em>
+        Paper presented at the Annual Conference of Cognitive Science, IIT Bombay.
+    </li>
+
+    <li>
+        Rath, T., Srivastava, N., & Srinivasan, N. (2024, November 22–25).
+        <em>Perceptual stimuli with difficult-to-trade-off attribute values show a positive attraction effect.</em>
+        Poster presented at the Annual Meeting of the Society for Judgment and Decision Making, New York, NY, USA.
+    </li>
+    <li>
+         <strong>Rath, T.</strong> (2025, November 1–2).
+        <em>Effort-based strategy selection in multi-attribute decision making: When bounded rationality predicts optimal behavior.</em>
+        Poster presented at the Applied Behavioral Science and Decision Making Conference,
+        Indian Institute of Technology Mandi, Himachal Pradesh, India.
+    </li>
+    <li>
+        <strong>Rath, T.</strong>, Srivastava, N., & Srinivasan, N. (2024, June).
+        <em>De-obfuscating context effects in decision-making: A simulation study.</em>
+        Paper presented at Virtual MathPsych/ICCM 2024.
+        <a href="https://mathpsych.org/presentation/1357" target="_blank">[Link]</a>
+    </li>
+</ul> -->
+            <!-- <li>
+                <strong>The Attraction Effect in Perceptual Decision-Making: A Case of Dominance
+                    Asymmetry</strong>, 
                 <strong>T. R. Rath</strong>, N. Srivastava, and N. Srinivasan. <br>
-                <em>Psychonomic Bulletin & Review.</em> Status: <a href="docs/PBR_manuscript.pdf" target="_blank">Under Review</a>.
+                <em>Frontiers in Psychology | Cognitive Science</em> Status: <a href="docs/manuscript_supplementary.pdf" target="_blank">Under Review</a>.
             </li>
     
             <li>
                 <strong>Re-evaluating the Numerical-Perceptual Distinction in the Attraction Effect</strong>, 
                 <strong>T. R. Rath</strong> and Vijay Marupudi. <br>
-                <em>CogSci2025.</em> Status: <a href="docs/CogSci_2025__Context_effects.pdf" target="_blank">Accepted for full publication</a>.
+                <em>CogSci2025.</em> Status: <a href="https://escholarship.org/content/qt0t1772s5/qt0t1772s5.pdf" target="_blank">Accepted for full publication</a>.
             </li>
     
             <li>
-                <strong>De-obfuscating Context Effects in Decision-Making: A Simulation Study</strong>, 
+                <strong>Unmasking the Flaws of Triplet-Triplet Attraction Effect Measures: Via Mathematical Analysis and Agent-Based Simulations</strong>, 
                 <strong>T. R. Rath</strong>, N. Srivastava, and N. Srinivasan. <br>
                 [Paper presented at Virtual MathPsych/ICCM 2024. Via mathpsych.org/presentation/1357]. 
                 Status: Manuscript 
-                <a href="docs/JMP_working paper.pdf" target="_blank">in preparation</a> for Journal of Mathematical Psychology.
+                <a href="docs/jmp.pdf" target="_blank">in preparation</a> for Journal of Mathematical Psychology.
             </li>
     
             <li>
@@ -103,7 +468,7 @@
                 T. R. Rath, N. Srivastava, and N. Srinivasan. <br>
                 Presented at Annual Meeting of the Society for Judgment and Decision Making, 
                 November 22-25, 2024, New York City, USA.
-            </li>
+            </li> -->
         </ul>
     </section>
 
@@ -113,7 +478,7 @@
             <!-- <h3>Projects</h3> -->
             <ul>
                 <li> To download a compact CV, click
-                    <a href="docs/Tapas_CV_April25.pdf" target="_blank">here</a>.
+                    <a href="docs/Tapas_Resume.pdf" target="_blank">here</a>.
                 </li>
                 <!-- <li><strong>Eye-Tracking Data Analysis</strong>: Analyzed eye-tracking data to understand gaze patterns in choice-based tasks.</li> -->
             </ul>
@@ -122,22 +487,34 @@
 
     <section id="links">
         <div class="container">
-                <h2>Interesting Reads</h2>
-                <p>When I take a break from research papers, I often come across short yet insightful reads on AI, cognitive science, and human decision-making. This section lists some articles, blogs, and repositories that I found particularly useful.
-                </p>    <br>
-                <ul>
-                    <li><a href="https://github.com/mdipietro09/GenerativeAI/tree/main/Agents_ZeroToHero" target="_blank">AI Agents from Zero to Hero</a></li>
-                    <li><a href="https://github.com/mdipietro09/GenerativeAI/tree/main/RAG" target="_blank">RAG-LLM: Local Multimodal Assistant</a></li>
-                    <li><a href="https://towardsdatascience.com/neural-networks-intuitively-and-exhaustively-explained-0153f85c1007/" target="_blank">Neural Networks – Intuitively and Exhaustively Explained</a></li>
-                    <li><a href="https://builtin.com/data-science/recommender-systems" target="_blank">Recommender Systems In-Depth Guide & How They Work</a></li>
-                    <li><a href="https://www.v7labs.com/blog/confusion-matrix-guide" target="_blank">Confusion Matrix: How To Use It & Interpret Results</a></li>
-                    <li><a href="https://github.com/rathtapas/ReverseCorrelationImageClassification" target="_blank">Noise to Signal: Reverse Correlation Image Classification</a></li>
-                    <li><a href="https://github.com/rathtapas/Sequencer_AutoDetect-Patterns-in-Complex-Datasets" target="_blank">The Sequencer: A Pattern Discovery Tool for Complex Datasets</a></li>
-                    <li><a href="https://zettelkasten.de/introduction/" target="_blank">Zettelkasten: A Note-Taking System for Research</a></li>
-                    <!-- <li><a href="https://www.oreilly.com/library/view/learning-python-5th/9781449356860/" target="_blank">Learning Python, 5th Edition</a></li> -->
-                    <li><a href="https://publish.obsidian.md/history-notes/01+Notetaking+for+Historians" target="_blank">Notetaking Set-up for Researchers: Zotero + Obsidian</a></li>
-                    <li><a href="https://thechangelab.stanford.edu/tutorials/" target="_blank">The Change Lab Tutorials – Stanford: A massive resource—I’m still exploring.</a></li>
-                </ul>
+            <h2>Interesting Reads</h2>
+            <p>When I take a break from research papers, I often come across short yet insightful reads on AI, cognitive
+                science, and human decision-making. This section lists some articles, blogs, and repositories that I
+                found particularly useful.
+            </p> <br>
+            <ul>
+                <li><a href="https://github.com/mdipietro09/GenerativeAI/tree/main/Agents_ZeroToHero" target="_blank">AI
+                        Agents from Zero to Hero</a></li>
+                <li><a href="https://github.com/mdipietro09/GenerativeAI/tree/main/RAG" target="_blank">RAG-LLM: Local
+                        Multimodal Assistant</a></li>
+                <li><a href="https://towardsdatascience.com/neural-networks-intuitively-and-exhaustively-explained-0153f85c1007/"
+                        target="_blank">Neural Networks – Intuitively and Exhaustively Explained</a></li>
+                <li><a href="https://builtin.com/data-science/recommender-systems" target="_blank">Recommender Systems
+                        In-Depth Guide & How They Work</a></li>
+                <li><a href="https://www.v7labs.com/blog/confusion-matrix-guide" target="_blank">Confusion Matrix: How
+                        To Use It & Interpret Results</a></li>
+                <li><a href="https://github.com/rathtapas/ReverseCorrelationImageClassification" target="_blank">Noise
+                        to Signal: Reverse Correlation Image Classification</a></li>
+                <li><a href="https://github.com/rathtapas/Sequencer_AutoDetect-Patterns-in-Complex-Datasets"
+                        target="_blank">The Sequencer: A Pattern Discovery Tool for Complex Datasets</a></li>
+                <li><a href="https://zettelkasten.de/introduction/" target="_blank">Zettelkasten: A Note-Taking System
+                        for Research</a></li>
+                <!-- <li><a href="https://www.oreilly.com/library/view/learning-python-5th/9781449356860/" target="_blank">Learning Python, 5th Edition</a></li> -->
+                <li><a href="https://publish.obsidian.md/history-notes/01+Notetaking+for+Historians"
+                        target="_blank">Notetaking Set-up for Researchers: Zotero + Obsidian</a></li>
+                <li><a href="https://thechangelab.stanford.edu/tutorials/" target="_blank">The Change Lab Tutorials –
+                        Stanford: A massive resource—I’m still exploring.</a></li>
+            </ul>
         </div>
     </section>
 
@@ -155,4 +532,5 @@
         </div>
     </footer>
 </body>
+
 </html>
