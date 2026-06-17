@@ -1,0 +1,107 @@
+\documentclass[10pt, a4paper]{extarticle}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.45in]{geometry}
+\usepackage{enumitem}
+\usepackage[pdftex, hidelinks]{hyperref}
+\usepackage{titlesec}
+
+\pagestyle{empty}
+\raggedright
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=*, itemsep=1pt, topsep=2pt}
+
+\titleformat{\section}
+  {\vspace{-4pt}\scshape\raggedright\large}
+  {}{0em}{}[\titlerule \vspace{-5pt}]
+
+\newcommand{\sectiontight}[1]{\vspace{6pt}\section{#1}}
+\newcommand{\entry}[4]{
+  \textbf{#1} \hfill #2\\
+  \textit{#3} \hfill \textit{#4}\vspace{1pt}
+}
+
+\begin{document}
+
+{\huge \textbf{Tapas Ranjan Rath}}\\[-1pt]
+Ph.D. Candidate, Department of Cognitive Science, Indian Institute of Technology Kanpur\\
+\href{mailto:tapasr@iitk.ac.in}{Email: tapasr@iitk.ac.in}
+\quad
+Phone: +91-9665231234
+\quad
+\href{https://tapasiitk.github.io/}{Website: tapasiitk.github.io}
+\quad
+\href{https://github.com/tapasiitk}{GitHub: github.com/tapasiitk}
+
+\sectiontight{Research Profile}
+Computational cognitive scientist studying context effects, bounded rationality, and human-AI interaction. My work combines behavioral experiments, Bayesian and mixed-effects modeling, agent-based simulation, and reinforcement-learning benchmarks. I am extending this program toward AI alignment questions involving sense of agency, value conflict, moral cognition, cooperation, norm formation, and multi-agent systems aligned to plural human values.
+
+\sectiontight{Education}
+\entry{Indian Institute of Technology Kanpur}{2019--present}{Ph.D., Cognitive Science}{Expected 2026}
+\begin{itemize}
+  \item Thesis: \textit{Investigating the Boundary Conditions of Context Effects in Decision-Making}
+  \item Supervisors: Prof. Narayanan Srinivasan and Prof. Nisheeth Srivastava
+\end{itemize}
+\entry{SRM University, Chennai}{2008--2012}{B.Tech., Electronics and Instrumentation Engineering}{CPI: 7.77/10}
+
+\sectiontight{Research Experience}
+\entry{Ph.D. Researcher, Cognitive Science}{2019--present}{Indian Institute of Technology Kanpur}{Kanpur, India}
+\begin{itemize}
+  \item Designed behavioral experiments in PsychoPy and JavaScript to study attraction effects, pairwise comparison, subjective equivalence, and trade-off difficulty in multi-attribute choice.
+  \item Built simulation frameworks and Bayesian/mixed-effects models to evaluate the robustness of standard decision metrics under heterogeneous preferences.
+  \item Implemented reinforcement-learning agents, including DRQN/POMDP models in PyTorch, to benchmark human adaptive decision-making and cognitive flexibility.
+  \item Developing theory and computational directions on proxy agency, AI-mediated choice, and multi-agent alignment under plural and evolving user values.
+\end{itemize}
+
+\sectiontight{Awards and Honors}
+\begin{itemize}
+  \item \textbf{Student Travel Grant, Cognitive Science Society (CogSci 2026)} - \$1,500 USD. Awarded to a first author on a highly rated paper accepted for oral presentation.
+  \item \textbf{Psychonomic Society Student Travel Award from Developing Nations (2026)} - \$2,000 USD. Awarded for the abstract \textit{Deliberation Eliminates Decoys Rather Than Amplifying Attraction}.
+\end{itemize}
+
+\sectiontight{Technical Skills}
+\begin{itemize}
+  \item \textbf{Statistics and modeling:} R (lme4, brms, BayesFactor, ggplot2); Python (Pandas, NumPy, SciPy, Statsmodels, Seaborn, Matplotlib); Bayesian modeling; mixed-effects models; agent-based simulation.
+  \item \textbf{AI and computational methods:} PyTorch, reinforcement learning, DRQN, POMDPs, multi-agent simulation, computational modeling of decision processes.
+  \item \textbf{Experimental methods:} PsychoPy, OpenSesame, JavaScript, online/offline behavioral experiments, psychophysics, eye tracking with Eyelink 1000 Plus.
+\end{itemize}
+
+\newpage
+\sectiontight{Publications and Manuscripts}
+\begin{itemize}
+  \item Rath, T., Srinivasan, N., \& Srivastava, N. (2025). \textbf{The attraction effect in perceptual decision-making: A case of dominance asymmetry.} \textit{Frontiers in Psychology}. \href{https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1661748}{[Link]}
+  \item Rath, T., Srivastava, N., \& Srinivasan, N. (2026). \textbf{A self-directed expanded judgment paradigm: Isolating the pairwise mechanism of the attraction effect.} Accepted for oral presentation and full paper publication at CogSci 2026 (140/1511 oral presentations; 9.3\%).
+  \item Rath, T., \& Marupudi, V. (2025). \textbf{Re-evaluating the numerical-perceptual distinction in the attraction effect.} \textit{Proceedings of CogSci 2025}. \href{https://escholarship.org/content/qt0t1772s5/qt0t1772s5.pdf}{[Link]}
+  \item Rath, T., Srivastava, N., \& Srinivasan, N. (2025). \textbf{Unmasking the flaws of triplet-triplet attraction effect measures: Via mathematical analysis and agent-based simulations.} \textit{PsyArXiv}. Target journal: \textit{Journal of Mathematical Psychology}. \href{https://doi.org/10.31234/osf.io/cj6hu_v1}{[DOI]}
+  \item Rath, T., Srivastava, N., \& Srinivasan, N. (in final preparation). \textbf{Pairwise comparison architecture in context-dependent choice.} Working paper; target journal: \textit{Judgment and Decision Making}.
+  \item Rath, T. (in final preparation). \textbf{The Proxy Agency Moral Shield: Extended Self, Semantic Fluency, and the Ethics of Agentic AI.} Working paper; target journal: \textit{Minds and Machines}.
+  \item Rath, T. (in final preparation). \textbf{When decoys are easy to reject: Comparative asymmetry and context effects in consumer product-pack choice.} Target journal: \textit{Journal of Consumer Psychology} (Short Reports).
+  \item Rath, T., Srivastava, N., \& Srinivasan, N. (in final preparation). \textbf{When difficult trade-offs make decoys work: Subjective equivalence geometry in the attraction effect.} Target journal: \textit{Judgment and Decision Making}.
+\end{itemize}
+
+\sectiontight{Selected Talks and Presentations}
+\begin{itemize}
+  \item Rath, T. (2026). \textbf{Deliberation eliminates decoys rather than amplifying attraction.} Poster to be presented at the 67th Annual Meeting of the Psychonomic Society, San Diego.
+  \item Rath, T., Srivastava, N., \& Srinivasan, N. (2024). \textbf{Perceptual stimuli with difficult-to-trade-off attribute values show a positive attraction effect.} Poster presented at the Society for Judgment and Decision Making Annual Meeting, New York City.
+  \item Rath, T., Srivastava, N., \& Srinivasan, N. (2024). \textbf{De-obfuscating context effects in decision-making: A simulation study.} Paper presented at Virtual MathPsych/ICCM 2024. \href{https://mathpsych.org/presentation/1357}{[Link]}
+  \item Rath, T., Srivastava, N., \& Srinivasan, N. (2024). \textbf{Attribute trade-off difficulty modulates the asymmetric-dominance of the decoy.} Presented at the Annual Conference of Cognitive Science, IIT Bombay.
+\end{itemize}
+
+\sectiontight{Teaching and Professional Service}
+\begin{itemize}
+  \item Teaching Assistant, Human-Centered Computing (CGS616), IIT Kanpur \hfill Jan--Jul 2024
+  \item Teaching Assistant, Introduction to Cognitive Science (CGS401), IIT Kanpur \hfill Jul--Dec 2023
+  \item Professional memberships: Society for Judgment and Decision Making; Society for Mathematical Psychology; Psychonomic Society; Cognitive Science Society.
+\end{itemize}
+
+\sectiontight{Prior Industry and Teaching Experience}
+\begin{itemize}
+  \item Senior Software Engineer, Accenture, Pune \hfill 2012--2014\\
+  Led QA strategy for enterprise telecom systems and designed automated testing frameworks.
+  \item Physics Instructor/Teacher, Chaitanya's Academy and DPS Kalyanpur \hfill 2014--2017\\
+  Designed curriculum and assessments for high-school and competitive-exam physics; mentored 500+ students.
+\end{itemize}
+
+\end{document}
